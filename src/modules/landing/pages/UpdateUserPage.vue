@@ -9,11 +9,11 @@
       </div>      
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" v-model="myForm.password">
+        <input type="password" class="form-control" v-model="myForm.password" minlength="8" maxlength="9">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
-        <input type="password" class="form-control" v-model="myForm.password2">
+        <input type="password" class="form-control" v-model="myForm.password2" minlength="8" maxlength="9">
       </div>
       <button type="submit" class="btn btn-primary">Actualizar</button>
     </form>
